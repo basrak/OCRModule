@@ -45,6 +45,8 @@ public class OcrGraphic extends GraphicOverlay.Graphic {
 
         mText = text;
 
+        sRectPaint = new Paint();
+
         if (sRectPaint == null) {
             sRectPaint = new Paint();
             sRectPaint.setColor(TEXT_COLOR);
